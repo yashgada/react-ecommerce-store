@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const ProductImages = ({ images = [{ url: "" }] }) => {
+const ProductImages = ({ images = [{ url: "", id: 0 }] }) => {
   const [main, setMain] = useState(images[0]);
   return (
     <Wrapper>
